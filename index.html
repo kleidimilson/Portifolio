@@ -3,65 +3,110 @@
     <head>
         <meta charset="utf-8">
         <title>Kleidimilson Dev</title>
-        <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="icon" href="./imagens/favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Gugi|Roboto+Condensed|Ubuntu" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="estilos/main.css">
     </head>
     <body>
-        <div class="cabecalho">
-            <div class="logo">
-                <h2 id="h2-logo">Kleidimilson<span id="h2-color">Dev</span></h2>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">Projetos</a></li>
-                    <li><a href="index.html">Contato</a></li>
-                    <li><a href="index.html">Quem sou eu</a></li>
-                </ul>
-            </div>
-        </div>
-        <div id="particles-js">
-            <div id="titulo">
-                <h2>WEB DEVELOPER</h2>
-                <button id="butao"><a href="#">Contrate-me</a></button>
-            </div>
-        </div>
- 
-        <div class="empresas">
-            <h2>EMPRESAS PARCEIRAS</h2>
-            <img src="./imagens/logo_1.png">
-            <img src="./imagens/logo_6.png">
-            <img src="./imagens/logo_3.png">
-        </div>
-        <div class="projetos">
+        <header>
+          <nav id="menu" class="navbar navbar-expand-md fixed-top navbar-light bg-dark">
+            <div class="container">
+                <a href="index.html" class="navbar-brand" id="h2-logo"><spam class="spam">Dev</spam>kleidimilson</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav">
+                    <i class="fas fa-bars text-white" id="toggle"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                             <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projetos</a>
+                       </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contato</a>
+                        </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Quem sou eu</a>
+                      </li>
+                   </ul>
+                </div>
             
-        </div>
-        <div class="quem-sou">
-                <h2>Como posso ajudar?</h2>
-                <p>A função de um desenvolvedor front-end é combinar lógica de projeto e de negócios para obter um produto voltado para o usuário. Para fazer isso com sucesso, é necessário um amplo conjunto de habilidades para produzir uma experiência de usuário de qualidade 
-                        que leve ao cumprimento das metas de negócios. Com minha experiência, posso:</p>
-                        <h4>Crie sites responsivos que funcionam em uma ampla variedade de dispositivos
-                        Auxiliar na produção de design limpo e funcional
-                        Bloqueio de comunicação entre projetistas e desenvolvedores
-                        Integre seu site em um sistema de< gerenciamento de conteúdo fácil de usar</h4>
-        </div>
-        <div class="projetos">
-            
-        </div>
-        <div class="tecnologias">
-           Todos os direitos reservados
+            </div>
+        </header>
            
-        </div>
-        
-    </body>
-    
-    
+            <section id="home" class="d-flex">
+                <div id="titulo" class="container align-self-center">
+                    <div class="row">
+                        <div class="col-md-12 capa">
+                            <h2 id="titulo-banner">Web developer </h2>
+                            <a id="butao" href="#" class="btn">Projetos</a>
+                        </div>
+                    </div> 
+                </div>
+            </section>
+            
+            <section id="ajuda">
+                    <div class="container">
+                        <div class="row">
+                                <div class="col-md-12">
+                                  <h2>COMO POSSO AJUDAR?</h2>
+                                  <p>a função de um desenvolvedor front-end é combinar lógica de projeto e de negócios para obter um produto voltado para o usuário. para fazer isso com sucesso, é necessário um amplo conjunto de habilidades para produzir uma experiência de usuário de qualidade que leve ao cumprimento das metas de negócios. com minha experiência, posso
+                                        criar sites responsivos que funcionam em uma ampla variedade de dispositivos auxiliar na produção de design limpo e funcional</p>
+                                </div>   
+                        </div>
+                    </div>
+            </section>
 
-</body>
+            <section id="ajuda" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>QUEM SOU EU</h2>
+                            <p>Me chamo Kleidimilson, sou um amante da tecnologia. Desde da minha infância percebi que gostava de criar ferramentas que pudessem mudar a vida das pessoas, 
+                                    Atualmente sou um Desenvolvedor Front-end e graduando em Ciência da Computação. Estou iniciando minha carreira como freelancer, fornecendo websites responsivos de alta qualidade e experiência excepcional para o usuário.
+                                    O trabalho que eu forneço é da mais alta qualidade, totalmente responsivo e testado em uma ampla gama de dispositivos. Eu tomo muito cuidado para garantir que cada projeto seja bem documentado e de fácil manutenção, para que você possa melhorar um site à medida que sua empresa cresce.
+                                    
+                                    Muitas vezes o desenvolvime</p>
+                        </div>   
+                    </div>
+                </div>
+            </section>
+            <section id="empresas">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2>Habilidades</h2>
+                        <p>Eu crio sites responsivos que permitem ao usuário experimentar o seu site da melhor e mais adequada forma adequada ao dispositivo que eles estão usando. Trabalhando com o aprimoramento progressivo, seu website é fornecido com um layout responsivo que pode aproveitar melhor o espaço disponível do menor para o maior dos dispositivos. A compatibilidade entre navegadores é assegurada usando a detecção de recursos, de modo que os navegadores mais antigos ainda em uso hoje fornecem uma experiência sólida, enquanto os navegadores modernos podem dar o próximo passo e aprimorar o tempo gasto pelo usuário em seu site.
+
+                            Escrever uma marcação semântica documentada e fácil de ler significa que ela pode ser mantida e dimensionada no futuro e permite que os colegas de trabalho trabalhem rapidamente com ela.</p>
+                        <i class="fab fa-html5 text-white fa-10x space"></i>
+                        <i class="fab fa-css3 text-white fa-10x space"></i>
+                        <i class="fab fa-js text-white fa-10x space"></i>
+                        <i class="fab fa-bootstrap text-white fa-10x space"></i>
+                    </div>   
+                </div>
+            </section>
+
+           
+            <footer class="bg-dark">
+                <div id="footer-space" class="container">
+                    <div class="row">
+                           <div class="col-md-12 text-center bg-dark text-white redes-sociais"  >
+                            todos os direitos reservados a <spam class="spam">Devkleidimilson</spam>    redes social  <a class="redes-sociais" href="https://www.instagram.com/kmilson_/"><i class="fab fa-instagram text-white" ></i></a>
+                            </div>
+                    </div>
+                </div>
+            </footer>
+       
+    </body>
 
 
 <script type="text/javascript" src="js/particles.min.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
-
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
