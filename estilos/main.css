@@ -1,6 +1,7 @@
 body,html,#home{
     height: 100%;
-    margin: 0px;
+    width: 100%;
+    align-content: center;
 }
 
 body{
@@ -10,10 +11,7 @@ body{
    
   
 }
-#wrapper{
-    padding-top: 20px;
-    text-align: center;
-}
+
        /* -----> MENU <--------*/
 .barra{
     background: #9932CC;
