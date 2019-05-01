@@ -108,7 +108,7 @@ a {
 #home{
     background-image: url(../imagens/banner-3.png);
     background-attachment: fixed;
-    height: 600px;
+    height: 100%;
     width: 100%;
 }
 .space{
