@@ -10,6 +10,10 @@ body{
    
   
 }
+#wrapper{
+    padding-top: 20px;
+    text-align: center;
+}
        /* -----> MENU <--------*/
 .barra{
     background: #9932CC;
