@@ -104,7 +104,7 @@ a {
 .capa{
     text-align: center;
 }
-.titulo-banner{
+#titulo-banner{
     font-family: 'Gugi', cursive;
     font-size: 60px;
     color: #ffff;
