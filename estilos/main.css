@@ -1,3 +1,5 @@
+
+/*CONFIGURAÇÕES GERAIS*/
 body,html,#home{
     height: 100%;
     width: 100%;
@@ -50,10 +52,12 @@ body{
 a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
-    transition: .3s all ease; }
-    a:hover {
-      text-decoration: none; }
-
+    transition: .3s all ease; 
+}
+a:hover {
+    text-decoration: none; 
+}
+/*HEADER*/
 .particles-js{
     padding: 0;
     background-position: fixed;
@@ -76,7 +80,7 @@ a {
     font-family: 'Gugi', cursive;
     
 }
-
+/*SESSÕES*/
 #foto{
     height: 170px;
     padding: 20px;
@@ -108,11 +112,7 @@ a {
    
 }
 /*#9932CC	*/
-#barra{
-    background: #9932CC;
-    text-align: center;
-    padding: 20px;
-}
+
 #home{
     background-image: url(../imagens/banner-3.png);
     background-attachment: fixed;
@@ -129,7 +129,6 @@ a {
     background: #9932CC;
     border-radius: 10px;
     
-
 }
 #ajuda{
     text-align: center;
@@ -139,6 +138,9 @@ a {
     padding: 20px;
     font-size: 19px;
     font-family: 'Roboto Condensed', sans-serif;
+}
+.space{
+    padding: 20px;
 }
 #ajuda h2{
     font-family:  'Roboto Condensed', sans-serif;
