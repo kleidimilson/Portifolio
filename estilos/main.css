@@ -56,15 +56,18 @@ a:hover {
     text-decoration: none; 
 }
 /*HEADER*/
+/*
+--> EFEITO <-----
 .particles-js{
     padding: 0;
-    background-position: fixed;
+    background-position: absolute;
     background-size: cover;
     width: 100%;
     height: 530px;
     z-index: 1;
   
 }
+*/
 
 
 
