@@ -10,7 +10,7 @@ body{
    height: 100%;
    margin:0;
    padding: 0;
-  font-family:  'Roboto Condensed', sans-serif;
+   font-family:  'Roboto Condensed', sans-serif;
    
   
 }
@@ -92,6 +92,7 @@ a {
 }
 #empresas{
     background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
     color: white;
