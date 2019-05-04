@@ -16,7 +16,7 @@ body{
 }
 
        /* -----> MENU <--------*/
-/*.barra{
+.barra{
     background: #9932CC;
     padding-left: 10px;
     color: #ffff;
@@ -33,6 +33,7 @@ body{
 
 #menu{
     background: rgba(0, 0, 0, 0.7);
+    width: 100%;
 }
 #toggle{
     border-color: red;
@@ -91,7 +92,6 @@ a {
 }
 #empresas{
     background: rgba(0, 0, 0, 0.7);
-    padding: 90px;
     padding-bottom: 10px;
     padding-top: 10px;
     color: white;
@@ -112,7 +112,7 @@ a {
    
 }
 /*#9932CC	*/
-/*#barra{
+#barra{
     background: #9932CC;
     text-align: center;
     padding: 20px;
@@ -120,7 +120,7 @@ a {
 #home{
     background-image: url(../imagens/banner-3.png);
     background-attachment: fixed;
-    height: 100%;
+   
     width: 100%;
 }
 .space{
@@ -141,6 +141,7 @@ a {
     text-align: center;
     background: #9932CC;
     color: white;
+    width: 100%;
     padding: 20px;
     font-size: 19px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -152,3 +153,4 @@ a {
 #footer-space{
     padding: 20px;
 }
+
