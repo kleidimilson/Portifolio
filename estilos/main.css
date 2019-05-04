@@ -16,12 +16,7 @@ body{
 }
 
        /* -----> MENU <--------*/
-.barra{
-    background: #9932CC;
-    padding-left: 10px;
-    color: #ffff;
-    text-align: center;
-}
+
 #h2-logo{
     font-family: 'Gugi', cursive;
     color: white;
@@ -124,9 +119,7 @@ a {
    
     width: 100%;
 }
-.space{
-    padding: 50px;
-}
+
 .redes-sociais{
     padding: 10px;
     padding-top: 0;
