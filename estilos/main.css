@@ -91,7 +91,7 @@ a:hover {
 
 }
 #empresas{
-    background: rgba(0, 0, 0, 0.7);
+    background: #9932CC;
     padding: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -101,6 +101,11 @@ a:hover {
 #empresas h2,p{
     padding: 10px;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.skins{
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .capa{
