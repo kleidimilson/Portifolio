@@ -241,7 +241,8 @@ ul.timeline > li:before {
     background-color: #E5E5E5;
     border: 2px #FF4D00 solid;
     margin-top: 10px;
-    width: 60%
+    width: 60%;
+    padding: 10px;
 }
 #butao-form{
     background-color: #FF4D00;
