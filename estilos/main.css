@@ -124,13 +124,16 @@ a:hover {
 .whatsapp {
     
     position: fixed;
-    top: 82%;
-    left: 90%;
+    top: 80%;
+    left: 85%;
     padding: 10px;
     
     z-index: 10000000;
 }
-
+.space{
+    margin-bottom: 20px;
+    
+}
 .botao{
   background-color: #FF4D00;
   color: #fff;
