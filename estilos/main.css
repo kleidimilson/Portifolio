@@ -137,6 +137,15 @@ a:hover {
 .text-banner{
     font-family:  'Roboto Mono', monospace;
 }
+.whatsapp {
+    
+    position: fixed;
+    top: 82%;
+    left: 90%;
+    padding: 10px;
+    
+    z-index: 10000000;
+}
 
 .botao{
   background-color: #FF4D00;
