@@ -13,29 +13,6 @@
         <link rel="stylesheet" type="text/css" href="estilos/main.css">
         <script type="text/javascript" src="js/main.js"></script>
 
-        <script type="text/javascript">
-        window.onload = function(){
-      var txtTitulo = 'Francisco Chaves. Tecnologia com bits codificados.';
-      var txt1 = document.getElementById("text-banner");
-      
-      var speed = 100;
-      var cont = 0;
-
-      function typeWriter () {
-        if(cont < txtTitulo.length){
-          txt1.innerHTML += "<u>" + txtTitulo.charAt(cont) + "</u>";
-          cont++;
-          setTimeout(typeWriter, speed);
-         }else{
-           cont = 0;
-         }
-        }
-
-       typeWriter();
-    };
-
-  </script>
-
     </head>
     <body>
         <header>
@@ -76,7 +53,9 @@
                            </div>
                            <br>
                           
-                           <p class="text-banner">
+                           <p class="text-banner">Desenvolvimento de web sites estilosos<br>
+
+                            Conheça meu trabalho
                             </p>
                             <br>
                             <a class="botao" href="#projetos">Portifolio</a>
