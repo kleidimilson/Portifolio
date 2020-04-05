@@ -123,6 +123,9 @@ a:hover {
   
     
 }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white !important;
+}
 .text-banner{
     font-family:  'Roboto Mono', monospace;
 }

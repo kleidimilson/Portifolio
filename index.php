@@ -189,7 +189,7 @@
                 <div class="row">
                     <div class="col-md-12 col-12 text-center">
                         <h3 class="bottom texto">Contato</h3>
-                        <form id="form-contato"  action="https://formsquash.io/f/O3t5MOKuMI29i4hKPtMj" method="POST">
+                        <form id="form-contato"  action="" method="POST">
                             <input name="assunto" class="input" type="text" placeholder="Assunto"><br>
                             <textarea  name="mensagem" class="input" placeholder="Mensagem"></textarea><br>
                             <button  id="butao-form" type="submit">Enviar</button>
