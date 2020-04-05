@@ -151,7 +151,7 @@
                                 <div class="col-lg-4 col-responsivo space">
                                     <a class="card-link" target="_blank">
                                         <div class="card text-dark bg-white card-content">
-                                            <img class="card-img-top" src="./imagens/projeto8.png" alt="projeto pessoal">
+                                            <img class="card-img-top" src="./imagens/projeto8.PNG" alt="projeto pessoal">
                                             <div class="card-body">
                                                 <p class="card-text">
                                                     Projeto de estudos
@@ -164,7 +164,7 @@
                             <div class="col-lg-4 col-responsivo space">
                                 <a class="card-link" target="_blank">
                                     <div class="card text-dark bg-white card-content">
-                                        <img class="card-img-top" src="./imagens/projeto9.png" alt="projeto pessoal Spotify Clone">
+                                        <img class="card-img-top" src="./imagens/projeto9.PNG" alt="projeto pessoal Spotify Clone">
                                         <div class="card-body">
                                             <p class="card-text">
                                                 Projeto de Cursospi 
