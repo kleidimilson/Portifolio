@@ -1,13 +1,19 @@
-function typeWrite(elemento){
-    const textoArray = elemento.innerHTML.split('');
-    elemento.innerHTML = ' ';
-    textoArray.forEach(function(letra, i){   
-      
-    setTimeout(function(){
-        elemento.innerHTML += letra;
-    }, 75 * i)
+window.onload = function(){
+    var txtTitulo = 'Francisco Chaves. Tecnologia com bits codificados.';
+    var txt1 = document.getElementById("text-banner");
+    
+    var speed = 100;
+    var cont = 0;
 
-  });
-}
-const titulo = document.querySelector('.text-banner');
-typeWrite(titulo);
+    function typeWriter () {
+      if(cont < txtTitulo.length){
+        txt1.innerHTML += "<u>" + txtTitulo.charAt(cont) + "</u>";
+        cont++;
+        setTimeout(typeWriter, speed);
+       }else{
+         cont = 0;
+       }
+      }
+
+     typeWriter();
+  };

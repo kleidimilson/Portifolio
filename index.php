@@ -53,9 +53,7 @@
                            </div>
                            <br>
                           
-                           <p class="text-banner">Desenvolvimento de web sites estilosos<br>
-
-                            Conheça meu trabalho
+                           <p class="text-banner">
                             </p>
                             <br>
                             <a class="botao" href="#projetos">Portifolio</a>
