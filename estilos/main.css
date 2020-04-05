@@ -236,7 +236,7 @@ ul.timeline > li:before {
 }
 #projetos{
     text-align: center;
-    background: #E5E5E5;
+    background-image: url(../imagens/Confetti-Doodles.svg);
     color: white;
     width: 100%;
    
@@ -263,7 +263,7 @@ ul.timeline > li:before {
     margin-bottom: 100px;
 }
 #contato{
-    background-color: #E5E5E5;
+    background-image: url(../imagens/Confetti-Doodles.svg);
     
 }
 
