@@ -9,5 +9,5 @@ function typeWrite(elemento){
 
   });
 }
-const titulo = document.querySelector('.titulo-principal');
+const titulo = document.querySelector('.text-banner');
 typeWrite(titulo);
