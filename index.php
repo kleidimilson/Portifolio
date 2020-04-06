@@ -216,7 +216,7 @@
             <div id="footer-space" class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 text-center text-white redes-sociais"  >
-                        todos os direitos reservados a <span id="logo-footer">WEB DEV</span><br><a class="redes-sociais" href="https://www.instagram.com/kmilson_/"><i class="fab fa-instagram text-white" ></i></a>
+                        todos os direitos reservados a <span id="logo-footer">WEB DEV</span><br>
                         <a class="redes-sociais" href="https://github.com/kleidimilson"><i class="fab fa-github-square text-white"></i></a>
                     </div>
                 </div>
