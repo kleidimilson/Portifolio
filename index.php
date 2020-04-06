@@ -174,6 +174,19 @@
                                     </div>
                                 </a>
                         </div>
+                        <div class="col-lg-4 col-responsivo space">
+                                <a class="card-link" target="_blank">
+                                    <div class="card text-dark bg-white card-content">
+                                        <img class="card-img-top" src="./imagens/projeto2.png" alt="projeto pessoal Spotify Clone">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto de PlaceTop
+                                                <p>Site feito de guia comercial da minha cidade<br> Tecnologias: ReactJS,Node JS e Mongodb</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                        </div>
                               
                                
                                 
